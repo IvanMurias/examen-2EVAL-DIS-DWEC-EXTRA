@@ -485,6 +485,7 @@
   }
   .galeria h3 {
     text-align: center;
+    height: 15rem;
   }
   
   .galeria-imagenes {
@@ -560,3 +561,54 @@
   }
   
   /*# sourceMappingURL=app.css.map */
+
+  ul.galeria-imagenes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .slider{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border:solid red 1px;
+    border-radius: 2rem;
+    padding: 10rem;
+  }
+.btn-atras,
+.btn-adelante{
+    width: 100px;
+    height: 60px;
+    border-radius: 2rem;
+    border: none;
+    color: white;
+    background-color: red;
+}
+.btn-atras:hover,
+.btn-adelante:hover{
+  text-decoration: underline;
+  cursor: pointer;
+} 
+.imagen-div{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5rem;
+  margin-right: 5rem;
+
+} 
+.contador-text{
+  font-size: 3rem;
+  border: red solid 2px;
+  color:red;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 200px;
+}
